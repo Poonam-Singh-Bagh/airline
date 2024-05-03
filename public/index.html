@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-container">
+        <div class="bg-cover">
+          <div class="text">
+            <p class="head-description">Altitude Air</p>
+            <p class="sub-description">
+              We promise to ensure that your well-being is taken care of while
+              travelling with us. Boasting top in class fleet inventory and a 5
+              star approval for our in-flight experience, you know you're
+              getting the best from Altitude with no attitude.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="form-container">
+        <div>
+          <div class="signin-button-wrapper">
+            <button type="submit" class="signin-button">SING IN</button>
+          </div>
+          <p class="heading">Explore & Experience</p>
+          <p class="sub-heading">
+            Get onto your most comfortable journey yet. All the way up
+          </p>
+          <form action="/signup" method="POST" class="form" id="submit_form">
+            <div class="name">
+              <input
+                type="text"
+                name="firstName"
+                placeholder="First Name"
+                required
+              />
+              <input
+                type="text"
+                name="lastName"
+                placeholder="Last Name"
+                required
+              />
+            </div>
+            <input type="email" name="email" placeholder="Email" required />
+            <input
+              type="text"
+              name="username"
+              placeholder="Username"
+              required
+            />
+            <input
+              type="text"
+              name="password"
+              placeholder="Password"
+              id="password"
+              required
+            />
+            <input
+              type="text"
+              name="confirmPassword"
+              placeholder="Confirm Password"
+              id="confirmPassword"
+              required
+            />
+            <button type="click" class="button" id="getStartedButton">
+              GET STARTED
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
